@@ -1,0 +1,243 @@
+body{
+    margin: 0px;
+    background: url(..//imagens/background.png);
+    background-size: 100px;
+    font-family: 'Arial';
+}
+#cabec{
+    height: 170px;
+    width: auto;
+    background-color:#00B89A;
+}
+#menu{
+    height: 70px;
+    background-color:#1A759F;
+    padding-top: 20px;
+}
+#conteudo{
+    height: 1450px;
+    width: 1400px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+}
+#rodape{
+    height: 200px;
+    width: 100%;
+    background-color:#52B69A;
+    display: flex;
+    text-align: center;
+}
+#alinhamento{
+    margin-left : -40px;
+    border: 0px solid #CCC;
+    text-align:center;
+}
+#sem_quebra{
+    white-space: nowrap
+}
+#com_quebra{
+    white-space: normal;
+}
+#logo{
+    width: 400px;
+    height: 70px;
+    border: 0px solid black;
+    float: left;
+    margin: 15px 0px 0px 15px;
+    display: inline-block;
+}
+#jargão{
+    width: 690px; 
+    height: 35px;
+    display: inline-block;
+    border: 0px solid black;
+    margin: 50px 60px 0px 15px ;
+    font-size: 40px;
+    text-align: center;
+}
+#pesquisa{
+    width: 330px;
+    height: 40px;
+    float: right;
+    border: 3px solid black;
+    margin: 50px 140px 0px 10px ;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 25px;
+    background-color: white;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: #1A759F ;
+    font-family: 'Arial';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.menu ul{
+    list-style: none;
+    position: absolute;
+}
+.menu ul li{
+    width: 150px;
+    float: left;
+    padding: 50px;
+    border: auto solid black;
+    white-space: nowrap;
+}
+.menu a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #D9ED92 ;
+    border: 1px solid black;
+}
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+}
+.menu a:hover{
+    background-color: #1A759F;
+    ;  
+}
+.menu ul ul li{
+    float: none;
+    border-bottom:  solid 1px #ccc;
+}
+.menu ul ul li a{
+    background-color:  #D9ED92;
+}
+.menu ul li ul li{
+    margin: 0;
+    justify-content: center ;
+    background-color: red;
+    padding: 0;  
+}
+.social_r{
+    width: 50%;
+    height: 200px;
+    border: 1px  solid black;
+}
+.fale_r{
+    width: 50%;
+    height: 200px;
+    border: 1px  solid black;
+}
+/*===============================================*/
+/*Não Mecha no codigo acima*/
+
+#titulo {
+    margin: 100px 650px 100px;
+    font-size: 40px;
+    color: #1A759F;
+}
+
+.bloco1 {
+    border: 1px solid black;
+    width: 1000px;
+    height: 250px;
+    float: left;
+} 
+
+#MargemBloco1 {
+    border-radius: 20px;
+    margin-top: -10px;
+    margin-left: 200px;
+}
+
+#text1 {
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.bloco2 {
+    border:1px solid black;
+    width: 500px;
+    height: 490px;
+    float:left;
+    margin-right:10px;
+    padding-top:10px;
+    
+}
+
+#MargemBloco2 {
+    border-radius: 300px;
+    margin-top: 130px;
+    margin-left: 150px;
+    background: url(..//imagens/CaesRacas.jpg);
+    background-size:cover;
+}
+
+.bloco3 {
+    border:1px solid black;
+    width: 500px;
+    height: 490px;
+    float:right;
+    margin-right:10px;
+    padding-top:10px;
+}
+
+#MargemBloco3 {
+    border-radius: 300px;
+    margin-top: 130px;
+    margin-right: 150px;
+    background: url(..//imagens/GatoRacas.jpeg);
+    background-size:cover;
+}
+
+.bloco4 {
+    border: 1px solid black;
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+
+#MargemBloco4 {
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 298px;
+}
+
+.bloco5 {
+    border: 1px solid black;
+    width: 200px;
+    height: 80px;
+    float: right;
+}
+
+#MargemBloco5 {
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 298px;
+}
+
+#text2 {
+    margin-left: 50px;
+    text-indent: 10px;
+    color: #52B69A;
+}
+
+#text3 {
+    margin-left: 40px;
+    text-indent: 10px;
+    color: #52B69A;
+}
+
+.card:hover {
+    opacity:0.5;
+}
+
+.card1:hover {
+    opacity:1;
+}
