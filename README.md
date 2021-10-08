@@ -1,1 +1,3 @@
-# Site-Petshop
+# Site Petshop
+
+Desenvolvido como trabalho Universitario.
